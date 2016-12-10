@@ -1,0 +1,167 @@
+@font-face {
+	font-family: BigJohn;
+	src: url('../fonts/BigJohn.otf');
+}
+
+@font-face {
+	font-family: 'SlimJoe'
+	src: url('../fonts/SlimJoe.otf');
+}
+
+@font-face {
+	font-family: 'AmbleRegular';
+	src: url('../fonts/Amble-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'AmbleLight';
+	src: url('../fonts/Amble-Light.ttf');
+}
+
+@font-face {
+	font-family: 'AmbleBold';
+	src: url('../fonts/Amble-Bold.ttf');
+}
+
+body {
+	width: 1600px;
+	height: 8599px;
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+
+.wrapper {
+	padding: 0;
+	margin: 0;
+	width: 1600px;
+	height: 8599px;
+
+}
+
+
+.talents {
+	display: inline-block;
+	width: 1600px;
+	height: 900px;
+	background-image: url('../img/talents_background.png');
+	background-repeat: no-repeat;
+}
+
+.talents h2 {
+	font-family: BigJohn;
+	font-size: 48px;
+	line-height: 60px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 270px;
+}
+
+img.whiteline {
+	margin-left: 750px;
+}
+
+.talents p {
+  font-size: 22px;
+  font-family: AmbleRegular;
+  color: #ffffff;
+  line-height: 30px;
+  text-align: center;
+  width: 628px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 485px;
+}
+
+img.talents_menu {
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
+
+img.talents_mouse {
+	position: relative;
+	top: 250px;
+	left: 785px;
+	right: 785px;
+}
+
+.introduction {
+	display: inline-block;
+	background-color: #ffffff;
+	width: 1600px;
+	height: 500px;
+}
+
+.introduction h2 {
+  font-size: 30px;
+  font-family: BigJohn;
+  color: #222222;
+  line-height: 60px;
+  text-align: center;
+  padding-top: 95px;
+}
+
+.intro_line {
+	padding-top: 30px;
+	padding-left: 750px;
+}
+
+.introduction p {
+	font-family: 'AmbleLight';
+	font-size: 22px;
+	line-height: 36px;
+	color: #222222;
+	width: 770px;
+	height: 110px;
+	padding-left: 415px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.creativity {
+	display: inline-block;
+	width: 1600px;
+	height: 500px;
+	background-image: url('../img/creativity_background.png')
+}
+
+.creativity h2 {
+	font-family: 'AmbleBold';
+	font-size: 30px;
+	line-height: 100px;
+	width: 430px;
+	height: 100px;
+	text-align: center;
+	color: #ffffff;
+	border: 4px solid #ffffff;
+	margin-left: 585px;
+	margin-top: 200px;
+}
+
+.our_work {
+	display: inline-block;
+	width: 1600px;
+	height: 1479px;
+	background-color: #ffffff;
+}
+
+.our_work h2 {
+	font-family: 'BigJohn';
+	font-size: 30px;
+	line-height: 60px;
+	padding-left: 615px;
+	padding-top: 100px;
+}
+
+.our_work .our_work_line {
+	padding-left: 755px;
+	padding-top: 60px;
+}
+
+.nav-menu {
+	float: left;
+	width: 700px;
+	height: 40px;
+	color: red;
+}
