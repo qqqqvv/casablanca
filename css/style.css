@@ -225,7 +225,12 @@ li.selected {
 }
 
 .our_work a:link {
-	color: black;
+	color: #222222;
+	text-decoration: none;
+}
+
+.our_work a:visited {
+	color: #222222;
 	text-decoration: none;
 }
 
@@ -363,11 +368,13 @@ li.selected {
 }
 
 .about_us h2 {
+	display: inline-block;
 	margin: 0;
 	font-family: 'BigJohn';
 	font-size: 30px;
 	line-height: 60px;
-	width: 170px;
+	width: 200px;
+	height: 31px;
 	padding-left: 715px;
 	padding-top: 105px;
 }
